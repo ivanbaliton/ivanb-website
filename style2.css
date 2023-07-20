@@ -1,0 +1,56 @@
+body {
+    margin: 0px;
+    background-color: aquamarine;
+}
+
+
+header {
+    background-color: azure;
+    padding: 10px;
+    text-align: center;
+}
+img {
+    width: 500px;
+    height: 500px;
+    margin-left: 60px;
+    margin-top: 10px;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+
+
+
+button a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+div h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    right: 30%;
+    top: 120px;
+    font-size: xx-large;
+    font-style: italic;
+    font-weight: bold;
+
+}
+
+div h3 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    position: absolute;
+    right: 25%;
+    top: 300px;
+    font-size: x-large;
+    font-style: italic;
+    font-weight: bold;
+
+}
+
+.motto h3{
+    width: 400px;
+    position: absolute;
+    left: 680px;
+    margin-top: 0px;
+}

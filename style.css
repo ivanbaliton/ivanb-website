@@ -1,0 +1,272 @@
+body {
+    background-color: aquamarine;
+    margin: 0px;
+}
+
+header {
+    background-color: azure;
+    padding: 5px;
+    text-align: center;
+   
+}
+
+nav {
+    display: inline-block;
+    list-style: none;
+    margin-right: auto;
+}
+
+nav li:hover {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8);
+    transition: hover 2s;
+    
+}
+
+nav li:active {
+    background-color: blue;
+    transition: background-color 0.15s;
+
+}
+nav li {
+    list-style: none;
+    margin-right: 50px;
+    background-color: burlywood;
+    padding: 5px;
+    border-radius: 10px;
+    
+}
+
+
+li a {
+    text-decoration: none;
+    font-style: italic;
+    margin: 10px;
+    color: #000;
+    font-weight: bold;
+    
+}
+
+
+h2 {
+    margin: 10px;
+    font-size: larger;
+    text-align: center;
+}
+a:hover {
+    color: green;
+    box-shadow: 5px ;
+}
+
+ul {
+    display: flex;
+    
+}
+
+
+
+img {
+    margin: 20px;
+    border-radius: 10px;
+}
+
+
+
+.main-square {
+    width: 198vh;
+    height: 80vh;
+    border: 5px solid black;
+    margin-left: 5px;
+}
+
+.pics {
+    position: absolute;
+   
+}
+
+.pics img:hover {
+    transition: 1s;
+    opacity: 0.9;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8)
+    
+}
+
+.pics img :active {
+    transition: 1s;
+}
+.pics p:hover {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.8)
+}
+
+.ivan img {
+    width: 150px;
+    height: 150px;
+    margin-left: 100px;
+    position: relative;
+    top: 30px;
+    
+}
+
+.ivan p {
+
+    color: black;
+    font-size: small;
+    position: absolute;
+    left: 100px;
+    top: 185px;
+    background-color: burlywood;
+    padding: 8px;
+    border-radius: 10px;
+    
+    
+}
+
+.viell img {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    left: 360px;
+    top: 30px;
+}
+
+
+.viell p {
+    color: black;
+    font-size: small;
+    position: relative;
+    left: 380px;
+    top: 185px;
+    background-color: burlywood;
+    padding: 8px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.rhine img {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    left: 630px;
+    top: 30px;
+}
+
+.rhine p {
+    color: black;
+    font-size: small;
+    position: relative;
+    left: 648px;
+    top: 185px;
+    background-color: burlywood;
+    padding: 8px;
+    border-radius: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.ace img {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    left: 880px;
+    top: 30px;
+}
+
+.ace p {
+    color: black;
+    font-size: small;
+    position: relative;
+    left: 900px;
+    top: 185px;
+    background-color: burlywood;
+    padding: 8px;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.jowel img {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    left: 85px;
+    top: 250px;
+    
+}
+
+.jowel p {
+    color: black;
+    font-size: small;
+    position: relative;
+    left: 105px;
+    top: 400px;
+    background-color: burlywood;
+    padding: 8px;
+    border-radius: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.wilfred img {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    left: 360px;
+    top: 250px;
+}
+
+.wilfred p {
+    color: black;
+    font-size: small;
+    position: relative;
+    left: 380px;
+    top: 400px;
+    background-color: burlywood;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: x-small;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.clark img {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    left: 625px;
+    top: 250px;
+}
+
+.clark p {
+    color: black;
+    font-size: small;
+    position: relative;
+    left: 630px;
+    top: 400px;
+    background-color: burlywood;
+    padding: 8px;
+    border-radius: 10px;
+    font-size: x-small;
+}
+
+.erning img {
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    left: 885px;
+    top: 250px;
+}
+
+.erning p {
+    color: black;
+    font-size: small;
+    position: relative;
+    left: 905px;
+    top: 400px;
+    background-color: burlywood;
+    padding: 8px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
